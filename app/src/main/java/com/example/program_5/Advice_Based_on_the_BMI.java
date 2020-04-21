@@ -34,9 +34,9 @@ public class Advice_Based_on_the_BMI extends AppCompatActivity {
 
 
         int underWeight = getResources().getIdentifier("@drawable/underweight", null, this.getPackageName());
-        int normal = getResources().getIdentifier("drawable/normal", null, this.getPackageName());
-        int overWeight = getResources().getIdentifier("drawable/overweight", null, this.getPackageName());
-        int Obese = getResources().getIdentifier("drawable/obese", null, this.getPackageName());
+        int normal = getResources().getIdentifier("@drawable/normal", null, this.getPackageName());
+        int overWeight = getResources().getIdentifier("@drawable/overweight", null, this.getPackageName());
+        int Obese = getResources().getIdentifier("@drawable/obese", null, this.getPackageName());
 
         Intent intent = getIntent();
         final String value = intent.getStringExtra("Key");
