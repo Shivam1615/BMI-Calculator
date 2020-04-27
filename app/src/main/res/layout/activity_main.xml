@@ -15,7 +15,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.12"
-            app:layout_constraintVertical_bias="0.054" android:id="@+id/Weight_Info" android:textSize="30sp"
+            app:layout_constraintVertical_bias="0.055" android:id="@+id/Weight_Info" android:textSize="30sp"
             android:textStyle="bold" android:gravity="center_horizontal|center_vertical"/>
     <TextView
             android:text="@string/height"
@@ -76,12 +76,12 @@
             app:layout_constraintBottom_toTopOf="@+id/Calculate_button">
 
         <RadioButton
-                android:text="@string/pounds_inches"
+                android:text="@string/english_units"
                 android:layout_width="match_parent"
-                android:layout_height="71dp" android:id="@+id/English_metric" android:textSize="24sp"
+                android:layout_height="71dp" android:id="@+id/English_metric" android:textSize="21sp"
                 android:onClick="EnglishMetric"/>
         <RadioButton
-                android:text="@string/kilogram_meters"
+                android:text="@string/metric_units"
                 android:layout_width="match_parent"
                 android:layout_height="71dp" android:id="@+id/NonEnglish_metric" android:textSize="21sp"
                 android:gravity="center_vertical"
