@@ -1,17 +1,15 @@
 <resources>
-    <string name="app_name">Program_5</string>
-    <string name="pound_inch">pound/inch</string>
-    <string name="kilogram_meter">kilogram/meter</string>
-    <string name="calculate_bmi">Calculate BMI</string>
-    <string name="bmi">BMI</string>
-    <string name="height">Height</string>
-    <string name="enter_weight_in_inches">Enter weight in inches</string>
-    <string name="enter_height_in_inches">Enter height in inches</string>
-    <string name="enter_weight_in_pounds">enter_weight_in_pounds</string>
-    <string name="english_units">pounds/inches</string>
-    <string name="metric_units">kilogram/meters</string>
-    <string name="lbs">Enter weight in pounds</string>
-    <string name="get_advice">GET ADVICE</string>
-    <string name="BMI">CALCULATE BMI</string>
-    <string name="weight">Weight</string>
+        <string name="app_name">Program_5</string>
+        <string name="calculate_bmi">Calculate BMI</string>
+        <string name="bmi">BMI</string>
+        <string name="height">Height</string>
+        <string name="enter_weight_in_inches">Enter weight in inches</string>
+        <string name="enter_height_in_inches">Enter height in inches</string>
+        <string name="enter_weight_in_pounds">enter_weight_in_pounds</string>
+        <string name="english_units">English Units</string>
+        <string name="metric_units">Metric Units</string>
+        <string name="lbs">Enter weight in pounds</string>
+        <string name="get_advice">GET ADVICE</string>
+        <string name="BMI">CALCULATE BMI</string>
+        <string name="weight">Weight</string>
 </resources>
